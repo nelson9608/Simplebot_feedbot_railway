@@ -3,17 +3,20 @@
     "description": "Bot to subscribe to feeds RSS",
     "keywords": [
         "simplebot",
-        "feedbot",
+        "deltachat",
+        "downloader",
+        "youtube"
     ],
     "success_url": "https://delta.chat",
     "website": "https://github.com/nelson9608/feedbot",
-    "repository": "https://github.com/nelson9608/feedbot",
+    "repository": "https://github.com/feedbot/feedbot",
     "env": {
-      "BOTNAME": {
+       "BOTNAME": {
             "description": "The name of The Bot",
             "value": ""
         },
-      "ADMIN": {
+
+        "ADMIN": {
             "description": "Your own email address as bot administrator",
             "required": false,
             "value": ""
@@ -25,8 +28,12 @@
         "PASSWORD": {
             "description": "The password of the bot's email account",
             "value": ""
+        },
+        "DELAY": {
+            "description": "Time(in seconds) to wait between sent file parts",
+            "value": "60"
         }
-},
+    },
     "addons": [
     ],
     "buildpacks": [{
