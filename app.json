@@ -9,7 +9,7 @@
     ],
     "success_url": "https://delta.chat",
     "website": "https://github.com/nelson9608/feedbot",
-    "repository": "https://github.com/feedbot/feedbot",
+    "repository": "https://github.com/nelson9608/feedbot",
     "env": {
        "BOTNAME": {
             "description": "The name of The Bot",
