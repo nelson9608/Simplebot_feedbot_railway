@@ -1,20 +1,14 @@
 {
-    "name": "Simplebot WWW",
-    "description": "Delta Chat bot that allows to browse the web, download and upload files, and more, all by email / Delta Chat",
+    "name": "Simplebot Feedbot",
+    "description": "Bot to subscribe to feeds RSS",
     "keywords": [
         "simplebot",
-        "deltachat",
-        "downloader",
-        "youtube"
+        "feedbot",
     ],
     "success_url": "https://delta.chat",
-    "website": "https://github.com/adbenitez/simplebot-www-heroku",
-    "repository": "https://github.com/adbenitez/simplebot-www-heroku",
+    "website": "https://github.com/nelson9608/feedbot",
+    "repository": "https://github.com/nelson9608/feedbot",
     "env": {
-     "FILESIZE": {
-  "descriptionMaximum size of the files that can be downloaded by the bot (in bytes)"
-  "value": ""
-},
       "BOTNAME": {
             "description": "The name of The Bot",
             "value": ""
@@ -32,11 +26,7 @@
             "description": "The password of the bot's email account",
             "value": ""
         },
-        "DELAY": {
-            "description": "Time(in seconds) to wait between sent file parts",
-            "value": "60"
-        }
-    },
+
     "addons": [
     ],
     "buildpacks": [{
