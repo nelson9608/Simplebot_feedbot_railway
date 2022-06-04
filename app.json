@@ -28,6 +28,7 @@
         "PASSWORD": {
             "description": "The password of the bot's email account",
             "value": ""
+}
         },
         
     "addons": [
@@ -41,4 +42,5 @@
             "size": "free"
         
     }
+ }
 }
