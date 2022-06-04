@@ -30,7 +30,15 @@
             "value": ""
 }
         },
-        
+     
+     "addons": [
+      {
+         "plan": "heroku-postgresql",
+        "options": {
+         "version": "14"
+      }
+    }
+  ],
     "addons": [
     ],
     "buildpacks": [{
