@@ -8,8 +8,8 @@
         "youtube"
     ],
     "success_url": "https://delta.chat",
-    "website": "https://github.com/nelson9608/feedbot",
-    "repository": "https://github.com/nelson9608/feedbot",
+    "website": "https://github.com/nelson9608/Simplebot_feedbot_heroku",
+    "repository": "https://github.com/nelson9608/Simplebot_feedbot_heroku",
     "env": {
        "BOTNAME": {
             "description": "The name of The Bot",
