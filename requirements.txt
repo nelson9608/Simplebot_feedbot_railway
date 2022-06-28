@@ -1,6 +1,3 @@
 git+https://github.com/simplebot-org/simplebot_feeds@master#simplebot_feeds
 # required by admin.py plugin
 psutil
-
-# required by drop.py plugin
-psutil
